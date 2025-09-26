@@ -93,3 +93,6 @@ target/
 README.md
 LICENCE.txt
 
+bin/
+lib64
+pyvenv.cfg
