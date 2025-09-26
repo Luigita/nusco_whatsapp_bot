@@ -1,0 +1,7 @@
+on_http_request:
+  - name: "WhatsApp Webhooks"
+    actions:
+      - type: "webhook-validation"
+        config:
+          provider: facebook_graph_api
+          secret: "0d0303f547991f961984ac3ea464d261"
